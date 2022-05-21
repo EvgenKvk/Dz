@@ -1,0 +1,21 @@
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir hello
+3) Зайти в папку - cd hello
+4) Создать 3 папки - touch number number2 number3
+5) Зайти в любоую папку - cd number2
+6) Создать 5 файлов (3 txt, 2 json) - touch here.txt there.txt where.txt one.json two.json
+7) Создать 3 папки - mkdir number4 number5 number6
+8. Вывести список содержимого папки - ls -la
+9) + Открыть любой txt файл - cat >> here.txt
+10) + написать туда что-нибудь, любой текст. - bread bread2 bread3 bread4 BREAD
+11) + сохранить и выйти. - ctrl+c
+12) Выйти из папки на уровень выше - cd ..
+—
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. - mv number2/there.txt number3 number2/where.txt number3
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. - cp number2/here.txt number number2/there.txt number
+15) Найти файл по имени - find -name filename 
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. - tail -f filename
+17) вывести несколько первых строк из текстового файла - head -m filename
+18) вывести несколько последних строк из текстового файла - tail -m 2 filename
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. - less filename 
+20) вывести дату и время - date
